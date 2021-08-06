@@ -1,0 +1,18 @@
+[   {
+        "imagen":"https://arreglosfrutalesquito.ec/99-large_default/arreglos-frutales-quito-te-amo-floral.jpg",
+        "nombre":"Produto 1",
+        "precio":"$30.00"
+    },{
+        "imagen":"https://arreglosfrutalesquito.ec/41-large_default/arreglos-frutales-quito-frutichoc-frutal-espera.jpg",
+        "nombre":"Producto 2",
+        "precio":"$45.00"
+    },{
+        "imagen":"https://assets.entrepreneur.com/content/3x2/2000/arreglos_frutales.jpg",
+        "nombre":"Producto 3",
+        "precio":"$75.00"
+    },{
+        "imagen":"https://arreglosfrutalesquito.ec/71-large_default/arreglos-frutales-quito-alegr%C3%ADa-rosa.jpg",
+        "nombre":"Producto 4",
+        "precio":"$50.00"
+    }
+]

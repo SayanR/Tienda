@@ -1,0 +1,162 @@
+body{
+    background-size: auto;
+    height: 100vh;
+    background-size: cover;
+    background: center no-repeat rgb(235, 234, 234);
+    
+    margin: 0 auto;  
+    background-attachment: fixed;
+    width: 100%;
+    height: 50em;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+    backdrop-filter: brightness(30%);
+}
+header{
+   background-image: url(https://www.superama.com.mx/views/micrositio/recetas/images/diadelasmadres/ramodefresas/Web_fotoreceta.jpg);width: 100%;height: 100vh;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.banner{
+    text-align: center;
+  }
+h1{
+    color:rgb(8, 7, 7);
+    font-family: 'Inconsolata', monospace;
+    font-size:5.8em ;
+    margin:0.01em;
+}
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    color:#000000;
+    font-size: 2em;
+    margin-bottom:0.9em;
+  }
+
+h3{
+    color:#000000;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 3em;
+    margin-bottom:0.2em;    
+}
+h4{
+    font-family: 'Lobster', cursive;
+    font-size: 8em;
+    margin:0em;
+}
+h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+h6{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.9em;
+    margin: 0;
+}
+button{
+    font-family: 'Akaya Telivigala', cursive;
+    background:#dd1818;
+    color:white;
+    border: 2px solid #e71919 ;
+    padding: 1em 2em;
+    font-size: 1em;
+    /*determinado tiempo*/
+    transition: color 0.25s, transform 0.25s, box-shadow 0.25s, border-color 0.75s ;
+}
+button:hover {
+    border-color: #b2116f;
+    background: #0480c8;
+    color: white;
+    cursor:pointer;
+    box-shadow: 0 0.6em 0.6em -0.4em #38aee5;
+    transform: translateY(-0.3em);
+}
+
+#Contenedor {
+    width: 100%;
+    height: 30em;
+    background-color: #ef476f;
+    border-top: 12px solid #e654d2 ;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Contenedor div {
+    margin-bottom: 0.9em; 
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    flex-basis: 300px;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.acerca{
+    font-size: 0.em;
+}
+#producto{
+    width: 100%;
+    height: 30em;
+    background-color: #0ae9b9;
+    border-top: 12px solid #38b9c2 ;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    flex-direction:inline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#producto div{
+    margin-top: 0.4em;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    flex-basis: 300px;
+}
+#datos{
+    width: 100%;
+    height: 12em;
+    background-color: #f04e8c;
+    border-top: 12px solid #d84bb5 ;
+    margin: 0;
+    align-items: left;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+#datos div{
+    margin-left: 8em;
+    margin-top: 2.5em;
+}
+footer{
+    width: 100%;
+    height: 5em;
+    background: #04f0f0;
+    color: rgb(0, 2, 2);
+    text-align: center;
+}
+@media (max-width:800px){
+    header{
+        height: 100vh;
+        font-size: 0.6em;
+    }
+    #producto{
+        width: 100%;
+        height: 70em;
+        padding-bottom: 5em;
+    }
+}
